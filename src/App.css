@@ -1,0 +1,129 @@
+body{
+    margin : 0;
+    padding: 0;
+    background-color :darkgrey
+
+  }
+.text{
+    border-radius: 8px;
+    margin-bottom: 20px;;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    border : 1px solid black;
+    height : 50px;
+    padding: 0px;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: inset -3px -3px 8px #656565, inset 3px 3px 8px #656565;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.checktask{
+    display: flex;
+}
+
+.cross{
+    /* background-color:crimson; */
+    background-color: rgba(244, 0, 0, 0.835);
+    width: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+#progressBar{
+    height: 30px;
+    width: 70%;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: white;  
+    border-radius: 8px;
+}
+
+#pourcent{
+    height: 100%;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 8px 8px 8px;
+   
+}
+
+.book{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    box-shadow: -3px -3px 15px #444, 3px 3px 15px #222;
+    border-radius: 5px;
+}
+
+.set, .displayTaskToDo{
+    border : 1px solid #727272;
+    width : 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 229, 217);
+}
+
+.set{
+    border-radius: 5px 0 0 5px;
+}
+
+.displayTaskToDo{
+    border-radius: 0 5px 5px 0;
+}
+.global{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    text-align: center;
+    color: #444
+}
+
+.taskCurentButton{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+h1{
+    color:#444
+}
+
+button{
+    border-radius: 8px 8px 8px 8px;
+    border : 1px solid black;
+    height: 35px;
+}
+
+.buttons{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mode{
+    margin-bottom: 10px;
+}
